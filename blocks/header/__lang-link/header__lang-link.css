@@ -1,0 +1,37 @@
+.header__lang-link {
+  color: white;
+  margin: 6px 0 0 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  justify-self: end;
+  align-self: center;
+  max-width: 29px;
+}
+
+.header__lang-link:hover {
+  opacity: 0.6;
+  transition-duration: 0.5s;
+}
+
+.header__lang-link:focus {
+  text-decoration: underline;
+}
+
+.header__lang-link:active {
+  opacity: 1;
+}
+
+.header__lang-link:focus:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

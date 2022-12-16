@@ -1,0 +1,23 @@
+.cover__overlay {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  background-color: #2a2c2f;
+  opacity: 0.4;
+  row-gap: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover__overlay:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    row-gap: 16px;
+  }
+}
