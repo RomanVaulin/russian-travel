@@ -1,7 +1,7 @@
 .header {
-  display: grid;
-  grid-template-columns: 92% 4% 4%;
-  align-items: end;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   margin: 0 auto;
   margin-top: 28px;
   width: 92.6%;
@@ -9,29 +9,19 @@
 
 @media screen and (max-width: 1024px) {
   .header {
-    width: 90.7%;
-    grid-template-columns: 90% 5% 5%;
+    width: 90.5%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    width: 93.9%;
-    grid-template-columns: 87% 6% 7%;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .header {
-    width: 90%;
-    grid-template-columns: 80% 10% 10%;
+    width: 93.8%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header {
-    width: 90%;
-    grid-template-columns: 72% 14% 14%;
     margin-top: 16px;
+    width: 90%;
   }
 }

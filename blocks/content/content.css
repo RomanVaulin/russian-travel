@@ -1,9 +1,10 @@
 .content {
-  margin: 56px auto;
+  margin: 0 auto;
+  margin-top: 56px;
 }
 
 @media screen and (max-width: 1024px) {
   .content {
-    margin: 48px auto;
+    margin-top: 48px;
   }
 }

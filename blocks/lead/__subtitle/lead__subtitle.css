@@ -2,8 +2,6 @@
   margin: 0 auto;
   margin-top: 32px;
   max-width: 640px;
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 400;
   text-align: center;
   color: white;
@@ -11,7 +9,7 @@
   line-height: 36px;
 }
 
-@media (min-width: 321px) and (max-width: 385px) {
+@media (min-width: 321px) and (max-width: 450px) {
   .lead__subtitle {
       max-width: 90.7%;
       font-size: 1.4rem;

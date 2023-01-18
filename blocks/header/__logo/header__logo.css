@@ -10,3 +10,9 @@
     height: 42px;
   }
 }
+
+@media screen and (max-width: 319px) {
+  .header__logo {
+    width: 50vw;
+  }
+}

@@ -18,3 +18,10 @@
     margin: 0 auto;
   }
 }
+
+@media screen and (max-width: 319px) {
+  .place__website {
+    width: 95vw;
+    margin: 0;
+  }
+}
