@@ -1,8 +1,8 @@
 .intro__list-numbers {
-  padding: 0;
+  padding: 0 0;
   color: #fff;
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-  margin-top: 32px;
+  margin: 32px 0 0;
 }
